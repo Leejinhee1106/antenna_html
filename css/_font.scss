@@ -1,0 +1,50 @@
+/* 카카오 큰글씨 */
+@font-face {
+    font-family: 'KakaoBigSans-ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoBigSans-ExtraBold.woff2') format('woff2');
+    font-style: normal;
+}
+
+/* 카카오 작은글씨 */
+@font-face {
+    font-family: 'KakaoSmallSans-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoSmallSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
+/* - ▼ Class ----------------------------------------------------------- */
+
+
+.kakao-b{
+    font-family: 'KakaoBigSans-ExtraBold' !important;
+    font-weight: 800 !important;
+}
+
+.kakao-l{
+    font-family: 'KakaoBigSans-Regular' !important;
+    font-weight: 400 !important;
+}
+
+.kakao-r{
+    font-family: 'KakaoSmallSans-Regular';
+    font-weight: normal;
+}
+
+.arial{
+    font-family: 'Arial' !important;
+    font-weight: normal !important;
+}
+
+.arial-b{
+    font-family: 'Arial' !important;
+    font-weight: bold !important;
+}
+
+.arial-k{
+    font-family: 'Arial black' !important;
+}
