@@ -4,42 +4,42 @@
 
 const items = [
   {
-    img: "../img/home/slider/thum-1.png",
+    img: "https://leejinhee1106.github.io/antenna_html/img/home/slider/thum-1.png",
     category: "Album Promotion Behind The Scenes",
     title: "고장난 타임머신",
     price: "메카니즘 (조혜련&페퍼톤스 (PEPPERTONES))",
     bgColor: "#81d9eb",
   },
   {
-    img: "../img/home/slider/thum-2.png",
+    img: "https://leejinhee1106.github.io/antenna_html/img/home/slider/thum-2.png",
     category: "MV Behind The Scenes",
     title: "고장난 타임머신",
     price: "메카니즘 (조혜련&페퍼톤스 (PEPPERTONES))",
     bgColor: "#81d9eb",
   },
   {
-    img: "../img/home/slider/thum-3.png",
+    img: "https://leejinhee1106.github.io/antenna_html/img/home/slider/thum-3.png",
     category: "2025 정승환 팬콘서트 [University of Seung Hwan]",
     title: "이 노래가",
     price: "정승환",
     bgColor: "#81d9eb",
   },
   {
-    img: "../img/home/slider/thum-4.png",
+    img: "https://leejinhee1106.github.io/antenna_html/img/home/slider/thum-4.png",
     category: "COVER SONG",
     title: "Strawberry Jam",
     price: "윤석철트리오 YUNSEOKCHEOL TRIO",
     bgColor: "#81d9eb",
   },
   {
-    img: "../img/home/slider/thum-5.png",
+    img: "https://leejinhee1106.github.io/antenna_html/img/home/slider/thum-5.png",
     category: "안테나 라디오📡EP.08",
     title: "Not Out",
     price: "Dragon Pony (드래곤포니)",
     bgColor: "#81d9eb",
   },
   {
-    img: "../img/home/slider/thum-6.png",
+    img: "https://leejinhee1106.github.io/antenna_html/img/home/slider/thum-6.png",
     category: "2024 윤석철트리오 단독공연 [나의 여름은 아직 안 끝났어]",
     title: "루틴 없는 게 루틴’+'말 없는 사람’+'Samba de Seoul’",
     price: "윤석철트리오 YUNSEOKCHEOL TRIO",
