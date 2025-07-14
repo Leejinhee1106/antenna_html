@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 부트스트랩 선언 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Schedule</title>
+</head>
+
+<body>
+
+<div w3-include-html="../include/header.html"></div> 
+<script src="http://127.0.0.1:5500/js/url.js"></script>
+
+<!-- 스케줄 바디 -->
+<div class="cal_wrap">   
+    <div class="cal-toolbar">
+        <div class="cal-btn">
+            <button type="button" class="btn btn-outline-none m_leftbtn monthbtn"><</button>
+            <h1 class="cal-month kakao-b">2025년 7월</h1>
+            <button type="button" class="btn btn-outline-none m_rightbtn monthbtn">></button>
+        </div>
+        <div class="dropdown cal_dropdown">
+            <button class="btn btn-info dropdown-toggle text-white cal-dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                카테고리 
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">전체보기</a></li>
+                <li><a class="dropdown-item" href="#">라디오</a></li>
+                <li><a class="dropdown-item" href="#">음악</a></li>
+                <li><a class="dropdown-item" href="#">방송</a></li>
+                <li><a class="dropdown-item" href="#">영화</a></li>
+            </ul>
+        </div>  
+    </div>
+    
+    <!-- 달력 -->
+    <div class="table-responsive">
+        <table class="table calendar kakao-b">
+            <!-- 요일 -->
+            <thead>
+                <tr class="cal-h50">
+                    <td class="sunday red-text">SUN</th>
+                    <td>MON</th>
+                    <td>TUE</th>
+                    <td>WED</th>
+                    <td>THU</th>
+                    <td>FRI</th>
+                    <td class="saturday">SAT</th>
+                </tr>
+            </thead>
+            <!-- 데일리 일정 -->
+
+        <tbody>    
+
+            <!-- 1주차 -->
+            <tr>
+                <td class="sunday week-1">
+                    <span class="day-number sunday red-text opa-text">29</span>
+                </td>
+                <td class="sunday week-1">
+                    <span class="day-number opa-text">30</span>
+                    <div class="day-content">
+                        
+                    </div>
+                </td>
+                <td rowspan="3" class="week-1">
+                    <span class="day-number">1</span>
+                    <div class="day-content">
+                        
+                    </div>
+                </td>
+                <td rowspan="3" class="week-1">
+                    <span class="day-number">2</span>
+                    <div class="day-content">
+                        
+                    </div>
+                </td>
+                <td rowspan="3" class="week-1">
+                    <span class="day-number">3</span>
+                    <div class="day-content">
+                        <p class="kakao-l day-text media_sc">
+                            <span class="circle-icon media"></span>[규현] 벌거벗은 세계사
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 3일 목요일</p>
+                            <p class="kakao-l detail-media">tvN <벌거벗은 세계사></p>
+                            <p class="kakao-l detail-time">오후 10:10 ~ 오후11:50</p>
+                        </div>
+                    </div>
+                </td>
+                <td rowspan="3" class="week-1">
+                    <span class="day-number">4</span>
+                    <div class="day-content">
+                       
+                    </div>
+                </td>
+                <td class="saturday week-1" rowspan="3">
+                    <span class="day-number">5</span>
+                    <div class="day-content saterday">
+                       
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="sss">
+                <td colspan="2" class="ss">
+                    <p class="radio kakao-l day-text radio_sc please">[이상순] 완벽한 하루 라디오</p>
+                    <div class="day-detail">
+                        <p class="kakao-b detail-date">2025년 6월 29일 일요일 <br> ~ 6월 30일 월요일</p>
+                        <p class="kakao-l detail-media sangsoon">MBC FM4U <완벽한 하루 이상순입니다></p> 
+                        <p class="kakao-l detail-time">오후 4:00 ~ 6:00</p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="week-1-1">
+                    <p class="kakao-l day-text music_sc">
+                        <span class="circle-icon music"></span>[드래곤포니] Live On BUSAN
+                    </p>
+                    <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 6월 29일 일요일</p>
+                            <p class="kakao-l detail-media">[드래곤포니] Live On BUSAN</p>
+                            <p class="kakao-l detail-time">오후 4:00</p>
+                        </div>
+                </td>
+                <td class="week-1-1"></td>
+            </tr>
+
+            <!-- 2주차 -->
+            <tr>
+                <td class="sunday">
+                    <span class="day-number sunday red-text">6</span>
+                    <div class="day-content">
+                        <p class="kakao-l day-text music_sc">
+                            <span class="circle-icon music"></span>[루시드폴] Sync Next 25
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 6일 일요일</p>
+                            <p class="kakao-l detail-media">[루시드폴] Sync Next 25</p>
+                            <p class="kakao-l detail-time">오후 2:00</p>
+                            <p class="kakao-l detail-ticket">[세종문화회관 멤버십 선예매] 4/21(월) 14:00</p>
+                            <p class="kakao-l detail-ticket">[일반예매] 4/28 (월) 14:00</p>
+                            <p class="kakao-l detail-ticket">[예매처] 인터파크, 멜론, YES24</p>
+                            <p class="kakao-l detail-ticket">[장소] 세종문화회관 S씨어터</p>
+                        </div>
+
+                        <p class="kakao-l day-text music_sc">
+                            <span class="circle-icon music"></span>[드래곤포니] TheNextWave
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 6일 일요일</p>
+                            <p class="kakao-l detail-media">[드래곤포니] TheNextWave XX25 Beach Music Festival</p>
+                            <p class="kakao-l detail-time">오후 4:00</p>
+                        </div>
+                    </div>
+                </td>
+                <td class="sunday">
+                    <span class="day-number">7</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">8</span>
+                    <div class="day-content">
+                        <p class="kakao-l day-text media_sc">
+                            <span class="circle-icon media"></span>[유재석] 놀면 뭐하니?
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 8일 화요일</p>
+                            <p class="kakao-l detail-media">MBC <놀면 뭐하니?></p>
+                            <p class="kakao-l detail-time">오후 6:30 ~ 오후 7:45</p>
+                        </div>
+
+                        <p class="kakao-l day-text media_sc">
+                            <span class="circle-icon media"></span>[페퍼톤스] 놀라운 토요일
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 8일 화요일</p>
+                            <p class="kakao-l detail-media">tvN <놀라운 토요일></p>
+                            <p class="kakao-l detail-time">오후 7:40 ~ 오후 9:10</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">9</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">10</span>
+                    <div class="day-content">
+                        <p class="kakao-l day-text radio_sc">
+                            <span class="circle-icon radio"></span>[정승환] 아이돌 라디오
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 10일 목요일</p>
+                            <p class="kakao-l detail-media">MBC 보이는 <아이돌 라디오></p>
+                            <p class="kakao-l detail-time">오후 9시 ~ 오후 10시</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">11</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td class="saturday">
+                    <span class="day-number">12</span>
+                    <div class="day-content saterday">
+                        <p class="kakao-l day-text media_sc">
+                            <span class="circle-icon media"></span>[유재석] 런닝맨
+                        </p>
+                        <div class="day-detail day-detail-left">
+                            <p class="kakao-b detail-date">2025년 7월 12일 토요일</p>
+                            <p class="kakao-l detail-media">SBS <런닝맨></p>
+                            <p class="kakao-l detail-time">오후 6:10 ~ 오후 7:50</p>
+                        </div>
+
+                        <p class="kakao-l day-text media_sc">
+                            <span class="circle-icon media"></span>[양세찬] 런닝맨
+                        </p>
+                        <div class="day-detail day-detail-left">
+                            <p class="kakao-b detail-date">2025년 7월 12일 토요일</p>
+                            <p class="kakao-l detail-media">SBS <런닝맨></p>
+                            <p class="kakao-l detail-time">오후 6:10 ~ 오후 7:50</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- 3주차 -->
+            <tr>
+                <td class="sunday">
+                    <span class="day-number sunday red-text">13</span>
+                    <div class="day-content">
+                        <p class="kakao-l day-text radio_sc">
+                            <span class="circle-icon radio"></span>[정승환] 두시탈출 컬투쇼
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 15일 화요일</p>
+                            <p class="kakao-l detail-media">SBS 파워FM <두시탈출 컬투쇼></p>
+                            <p class="kakao-l detail-time">오후 2시</p>
+                        </div>
+
+                        <p class="kakao-l day-text media_sc">
+                            <span class="circle-icon media"></span>[유재석] 놀면 뭐하니?
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 8일 화요일</p>
+                            <p class="kakao-l detail-media">MBC <놀면 뭐하니?></p>
+                            <p class="kakao-l detail-time">오후 6:30 ~ 오후 7:45</p>
+                        </div>
+                    </div>
+                </td>
+                <td class="sunday">
+                    <span class="day-number">14</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">15</span>
+                    <div class="day-content">
+                        <p class="kakao-l day-text radio_sc">
+                            <span class="circle-icon radio"></span>[양세찬] 아이돌 라디오
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 15일 화요일</p>
+                            <p class="kakao-l detail-media">SBS 파워FM <황제성의 황제파워></p>
+                            <p class="kakao-l detail-time">오후 9시 ~ 오후 10시</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">16</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">17</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">18</span>
+                    <div class="day-content">
+                        <p class="kakao-l day-text media_sc">
+                            <span class="circle-icon media"></span>[유재석] 유퀴즈온더블럭
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 18일 금요일</p>
+                            <p class="kakao-l detail-media">tvN <유 퀴즈 온 더 블럭></p>
+                            <p class="kakao-l detail-time">오후 8:40 ~ 오후 10:30</p>
+                        </div>
+                    </div>
+                </td>
+                <td class="saturday">
+                    <span class="day-number">19</span>
+                    <div class="day-content saterday">
+                        <p class="kakao-l day-text media_sc">
+                            <span class="circle-icon media"></span>[이미주] 이십세기 힛-트쏭
+                        </p>
+                        <div class="day-detail day-detail-left">
+                            <p class="kakao-b detail-date">2025년 7월 19일 토요일</p>
+                            <p class="kakao-l detail-media">KBS Joy <이십세기 힛-트쏭></p>
+                            <p class="kakao-l detail-time">오후 8:40 ~ 오후 11:00</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- 4주차 -->
+            <tr>
+                <td class="sunday">
+                    <span class="day-number sunday red-text">20</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td class="sunday">
+                    <span class="day-number">21</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">22</span>
+                    <div class="day-content">
+                        <p class="kakao-l day-text media_sc">
+                            <span class="circle-icon media"></span>[양세찬]톡파원 25시
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 22일 화요일</p>
+                            <p class="kakao-l detail-media">JTBC <톡파원 25시></p>
+                            <p class="kakao-l detail-time">오후 8:50 ~ 오후 10:40</p>
+                        </div>
+
+                        <p class="kakao-l day-text music_sc">
+                            <span class="circle-icon music"></span>[페퍼톤스]2025 CLUB TOUR
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 22일 화요일</p>
+                            <p class="kakao-l detail-media">2025 PEPPERTONES CLUB TOUR in 부산</p>
+                            <p class="kakao-l detail-time">오후 5:00 ~ 오후 6:30</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">23</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">24</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">25</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td class="saturday">
+                    <span class="day-number">26</span>
+                    <div class="day-content saterday">
+                        <p class="kakao-l day-text radio_sc">
+                            <span class="circle-icon radio"></span>[이미주] 두시탈출 컬투쇼
+                        </p>
+                        <div class="day-detail day-detail-left">
+                            <p class="kakao-b detail-date ">2025년 7월 26일 토요일</p>
+                            <p class="kakao-l detail-media">SBS 파워FM <두시탈출 컬투쇼></p>
+                            <p class="kakao-l detail-time">오후 2시</p>
+                        </div>
+
+                        <p class="kakao-l day-text music_sc">
+                            <span class="circle-icon music"></span>[정재형] 라이브 와이어
+                        </p>
+                        <div class="day-detail day-detail-left">
+                            <p class="kakao-b detail-date">2025년 7월 26일 토요일</p>
+                            <p class="kakao-l detail-media">Mnet <라이브 와이어></p>
+                            <p class="kakao-l detail-time">오후 7시 ~ 오후 8시 30분</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- 5주차 -->
+            <tr>
+                <td class="sunday">
+                    <span class="day-number sunday red-text">27</span>
+                    <div class="day-content">
+                        <p class="kakao-l day-text music_sc">
+                            <span class="circle-icon music"></span>[드래곤포니] 2025 여수 K-메가아일랜드
+                        </p>
+                        <div class="day-detail">
+                            <p class="kakao-b detail-date">2025년 7월 27일 일요일</p>
+                            <p class="kakao-l detail-media">[드래곤포니] 2025 여수 K-메가아일랜드 페스티벌</p>
+                        </div>
+                    </div>
+                </td>
+                <td class="sunday">
+                    <span class="day-number">28</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">29</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">30</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number">31</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td>
+                    <span class="day-number opa-text">1</span>
+                    <div class="day-content">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+                <td class="saturday">
+                    <span class="day-number opa-text">2</span>
+                    <div class="day-content saterday">
+                        <!-- 일정 등 넣을 자리 -->
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>
+<!-- Footer 자리 -->
+<div w3-include-html="../include/footer.html"></div>
+
+<script src="https://leejinhee1106.github.io/antenna_html/js/main.js"></script>
+<script src="https://leejinhee1106.github.io/antenna_html/js/header.js"></script>
+<script>
+  includeHTML();
+
+  // 헤더가 로드된 후 이벤트 연결
+  setTimeout(() => {
+    initHeaderEvents();
+  }, 100); // 또는 MutationObserver로 감지
+</script>
+</body>
+</html>

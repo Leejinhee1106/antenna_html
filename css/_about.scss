@@ -1,0 +1,149 @@
+body{
+  .ab_wrap{
+    max-width: 1280px;
+    margin: 0 auto;
+    .ab_slogan_img{
+      width: 100%;
+      padding-top: 48.7%;
+      // height: 623px;
+      background: url(../img/about/every.jpg);
+      background-size: cover;
+      margin: 20px 0;
+    }
+    .ab_content{margin-top: 20px;}
+
+    .ab_sec2{
+      margin-top: 70px;
+      margin-bottom: 100px; 
+      .ab_history_box{
+        margin-top: 20px;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+        .ab_logo_bg{
+          width: 500px;
+          height: 600px;
+          background: url(../img/about/history_bg2.png) no-repeat;
+          background-size: contain;
+          background-position: 0 45px;
+          position: absolute;
+          left: 0;
+        }
+        .ab_items_wrap{
+          position: relative;
+          margin-left: 50%;
+                
+          .ab_history-item{
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 50px;
+
+             &::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 81.5px;
+              width: 2px;
+              height: 100%;
+              background-color: #31ceee;
+             }
+            .ab_year{
+              margin-right: 40px;
+            }
+            
+          }
+        }
+      }
+    }
+  }
+}
+
+// 텍스트 css
+.ab_title {font-size: 46px;}
+.ab_sub_title {font-size: 36px; letter-spacing: -1px;}
+p {
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.5px;
+}
+.ab_year {font-size: 24px;}
+
+.bold_y {color: #31ceee;}
+mark{
+  background: #31ceee; 
+  color: white;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/* PC */
+@media (min-width: 1025px) {
+
+}
+
+/* 태블릿 */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ab_wrap{
+    margin: 0 20px !important;
+    .ab_logo_bg {
+        width: 200px !important;
+        height: 200px !important;
+        margin-left: 8%;
+        background: url(../img/about/logo-b-trans.svg) no-repeat !important;
+        background-size: contain !important;
+        position: absolute;
+        top: 28%;
+        transition: all 0.3s;
+    }
+    .ab_items_wrap{
+        margin-left: 40% !important;
+        transition: all 0.3s;
+    }
+  }
+}
+
+/* 모바일 */
+@media (max-width: 767px) {
+  .ab_wrap{
+    margin: 0 20px !important;
+    .ab_logo_bg {
+        width: 80% !important;
+        height: 95% !important;
+        margin-left: 15%;
+        background: url(../img/about/ab_rightbottom\(5x7\).png) no-repeat !important;
+        background-size: cover !important;
+        background-position: right bottom !important;
+    }
+    .ab_items_wrap{
+        margin-left: 0 !important;
+        transition: all 0.3s;
+    }
+  }
+}
+/* 센터
+@media (max-width: 767px) {
+  .ab_wrap{
+    margin: 0 20px !important;
+    .ab_logo_bg {
+        width: 80% !important;
+        height: 700px !important;
+        margin-left: 15%;
+        background: url(../img/about/ab_center.png) no-repeat !important;
+        background-size: cover !important;
+        background-position: center center !important;
+    }
+    .ab_items_wrap{
+        margin-left: 0 !important;
+        transition: all 0.3s;
+    }
+  }
+}
+*/

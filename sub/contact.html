@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div w3-include-html="https://leejinhee1106.github.io/antenna_html/include/header.html"></div>
+    <script src="https://leejinhee1106.github.io/antenna_html/js/url.js"></script>
+
+    <!-- Contact Main Section -->
+    <div class="contact-main">
+        <div class="center">
+            <h1 class="fs48 arial-b contact-label">
+                We hope this value we hold permeates<br>
+                through your life.
+            </h1>
+            <p class="fs24 kakao-r contact-info">
+                우리가 가진 가치가 당신에게 전해지기를 바랍니다.
+            </p>
+        </div>
+
+        <div class="contact-hello">
+            <img src="https://leejinhee1106.github.io/antenna_html/img/contact/hello.png" alt="hello" class="img-fluid">
+        </div>
+
+        <div class="contact-hello-alt d-md-none"></div>
+
+        <div class="contact-info-bg">
+            <div class="center">
+                <div class="contact-container">
+
+                    <div class="row mb-3">
+                        <div class="col fs28 arial-b contact-title">TEL</div>
+                        <div class="col fs28 kakao-l contact-txt">
+                            <a href="tel:0222010222">02-2201-0222</a>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col fs28 arial-b contact-title">EMAIL</div>
+                        <div class="col fs28 kakao-l contact-txt">
+                            <a href="mailto:audition@antenna.co.kr">audition@antenna.co.kr</a><br>
+                            <a href="mailto:binn@antenna.co.kr">binn@antenna.co.kr</a>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col fs28 arial-b contact-title">FOLLOW</div>
+                        <div class="col contact-icons">
+                            <a href="https://www.instagram.com/antenna_official/" target="_blank">
+                                <img src="https://leejinhee1106.github.io/antenna_html/img/contact/instagram_4138124.png" alt="Instagram">
+                            </a>
+                            <a href="https://www.facebook.com/antennamusics" target="_blank">
+                                <img src="https://leejinhee1106.github.io/antenna_html/img/contact/facebook_4138125.png" alt="Facebook">
+                            </a>
+                            <a href="https://x.com/antennamusic" target="_blank">
+                                <img src="https://leejinhee1106.github.io/antenna_html/img/contact/twitter_5969020.png" alt="X-Twitter">
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCwW6D9G9hegNPKYrQ0zivvQ" target="_blank">
+                                <img src="https://leejinhee1106.github.io/antenna_html/img/contact/youtube_4138134.png" alt="YouTube">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col fs28 arial-b contact-title">ADDRESS</div>
+                        <div class="col fs28 kakao-l contact-txt">
+                            <a href="https://kko.kakao.com/EMdCh8E2Zh">
+                                32-10, Eonju-ro 135-gil, Gangnam-gu, Seoul, Korea, 06051
+                            </a><br>
+                            <a href="https://kko.kakao.com/EMdCh8E2Zh">
+                                서울특별시 강남구 언주로135길 32-10 (논현동)
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Kakao Map Section -->
+        <div>
+            <!-- 1. 지도 노드 -->
+            <div id="daumRoughmapContainer1750317683482" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+            <!-- 2. 설치 스크립트 -->
+            <script charset="UTF-8" class="daum_roughmap_loader_script"
+                src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+            <!-- 3. 실행 스크립트 -->
+            <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                    "timestamp": "1750317683482",
+                    "key": "3t9zgz7qj7d",
+                    "mapWidth": "100%",
+                    "mapHeight": "600"
+                }).render();
+            </script>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div w3-include-html="https://leejinhee1106.github.io/antenna_html/include/footer.html"></div>
+
+    <!-- Scripts -->
+    <script src="https://leejinhee1106.github.io/antenna_html/js/main.js"></script>
+    <script src="https://leejinhee1106.github.io/antenna_html/js/header.js"></script>
+    <script>
+        includeHTML();
+
+        // 헬더가 로드된 후 이벤트 연결
+        setTimeout(() => {
+            initHeaderEvents();
+        }, 100); // 또는 MutationObserver로 감지
+    </script>
+</body>
+
+</html>
